@@ -32,7 +32,7 @@ a {
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: #F59292;
 }
 
@@ -74,4 +74,29 @@ ul {
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #404144;
+}
+
+.page-content {
+  /*margin-left: 300px;*/
+}
+
+#sidebar a {
+  font-family: 'Satisfy', cursive;
+  color: #ECE8E5;
+  font-size: 24pt;
+  padding: 0px 10px;
+}
+
+
+#sidebar a:hover {
+  color: #F59292;
 }
